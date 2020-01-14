@@ -76,7 +76,7 @@ extension TopAlbumsViewController : UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         guard let cell = tableView.dequeueReusableCell(withIdentifier: Constants.reuseIdentifier, for: indexPath) as? AlbumTableViewCell else {
-            print("Cell could not be initialized")
+            return UITableViewCell()
         }
         
         //If the image is already downloaded, render it, if not fetch it
