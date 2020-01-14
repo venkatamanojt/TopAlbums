@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C429C3923CD3EA900383327 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = 8C429C3823CD3EA900383327 /* ReadMe.md */; };
 		8C547B1223CAA13B00825C70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C547B1123CAA13B00825C70 /* AppDelegate.swift */; };
 		8C547B1423CAA13B00825C70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C547B1323CAA13B00825C70 /* SceneDelegate.swift */; };
 		8C547B1B23CAA13E00825C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C547B1A23CAA13E00825C70 /* Assets.xcassets */; };
@@ -20,7 +21,6 @@
 		8C547B7223CB9FCD00825C70 /* AlbumsAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C547B7123CB9FCD00825C70 /* AlbumsAPIClient.swift */; };
 		8C547B7523CBA16000825C70 /* AlbumListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C547B7423CBA16000825C70 /* AlbumListViewModel.swift */; };
 		8C547B7723CBA17100825C70 /* AlbumDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C547B7623CBA17100825C70 /* AlbumDetailViewModel.swift */; };
-		F365B61D23CD14A100A57ADF /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F365B61C23CD14A100A57ADF /* ReadMe.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C429C3823CD3EA900383327 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		8C547B0E23CAA13B00825C70 /* TopAlbums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopAlbums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C547B1123CAA13B00825C70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C547B1323CAA13B00825C70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		8C547B7123CB9FCD00825C70 /* AlbumsAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsAPIClient.swift; sourceTree = "<group>"; };
 		8C547B7423CBA16000825C70 /* AlbumListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewModel.swift; sourceTree = "<group>"; };
 		8C547B7623CBA17100825C70 /* AlbumDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewModel.swift; sourceTree = "<group>"; };
-		F365B61C23CD14A100A57ADF /* ReadMe.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 		8C547B0523CAA13B00825C70 = {
 			isa = PBXGroup;
 			children = (
-				F365B61C23CD14A100A57ADF /* ReadMe.rtf */,
+				8C429C3823CD3EA900383327 /* ReadMe.md */,
 				8C547B1023CAA13B00825C70 /* TopAlbums */,
 				8C547B2723CAA13E00825C70 /* TopAlbumsTests */,
 				8C547B0F23CAA13B00825C70 /* Products */,
@@ -242,8 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C547B1E23CAA13E00825C70 /* LaunchScreen.storyboard in Resources */,
-				F365B61D23CD14A100A57ADF /* ReadMe.rtf in Resources */,
 				8C547B1B23CAA13E00825C70 /* Assets.xcassets in Resources */,
+				8C429C3923CD3EA900383327 /* ReadMe.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
