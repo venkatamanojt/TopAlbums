@@ -95,6 +95,7 @@ extension TopAlbumsViewController : UITableViewDataSource{
             cell.artImageView.isHidden = true
         }
         cell.isAccessibilityElement = true
+        cell.selectionStyle = .none
         cell.accessibilityLabel = albumListViewModel.accessibilityLabel(at: indexPath.row)
         cell.accessibilityTraits = .button
         cell.albumNameLabel.text = albumListViewModel.albumName(at: indexPath.row)
